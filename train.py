@@ -4,7 +4,7 @@ import numpy as np
 
 hashmap = {}   #定义存储标签向量的字典
 
-data=open("C:\\Users\\dell\\Desktop\\Recommend_system\\data\\分词标签.txt",encoding='utf-8')     #读取标签txt文件
+data=open("./分词标签.txt",encoding='utf-8')     #读取标签txt文件
 
 tokenizer = BertTokenizer.from_pretrained("./bert-hgd-base")
 config = BertConfig.from_pretrained('./bert-hgd-base')
